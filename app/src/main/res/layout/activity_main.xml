@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fontFamily="sans-serif"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:src="@drawable/bubbles"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#3f51b5"
+        android:text="Şişli Sualtı Sporları Kulübü" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="#c5cae9"
+        android:text="Scuba Diving Center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:text="Türkiye ve Dünya'nın birçok heyecan verici dalış noktalarını birlikte keşfetmeye ne dersiniz?" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="4dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:src="@drawable/location"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_marginRight="8dp"
+            android:layout_gravity="center_vertical"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:text="Merkez Mahallesi, Abide-i Hürriyet Cad./Palazoğlu Sok. No: 3 D: 11, 34381 Şişli/İstanbul" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="4dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:src="@drawable/phone"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_marginRight="8dp"
+            android:layout_gravity="center_vertical"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:text="+90 212 291 2434" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:src="@drawable/website"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_marginRight="8dp"
+            android:layout_gravity="center_vertical"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:text="http://www.sislisualti.com" />
+
+    </LinearLayout>
+
+</LinearLayout>
